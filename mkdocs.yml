@@ -19,7 +19,7 @@
 # IN THE SOFTWARE.
 
 # Project information
-site_name: Material for MkDocs
+site_name: OnlineCloak
 site_url: https://squidfunk.github.io/mkdocs-material/
 site_author: Martin Donath
 site_description: >-
@@ -27,8 +27,8 @@ site_description: >-
   documentation of your Open Source or commercial project
 
 # Repository
-repo_name: squidfunk/mkdocs-material
-repo_url: https://github.com/squidfunk/mkdocs-material
+# repo_name: squidfunk/mkdocs-material
+# repo_url: https://github.com/squidfunk/mkdocs-material
 
 # Copyright
 copyright: Copyright &copy; 2016 - 2022 Martin Donath
@@ -36,7 +36,7 @@ copyright: Copyright &copy; 2016 - 2022 Martin Donath
 # Configuration
 theme:
   name: null
-  custom_dir: !ENV [THEME_DIR, "material"]
+  custom_dir: material
 
   # Static files
   static_templates:
@@ -90,17 +90,18 @@ theme:
 # Plugins
 plugins:
   - search
-  - redirects:
-      redirect_maps:
-        changelog/insiders.md: insiders/changelog.md
-        conventions.md: philosophy.md
-        reference/abbreviations.md: reference/tooltips.md
-        reference/meta-tags.md: reference/index.md
-        reference/variables.md: https://mkdocs-macros-plugin.readthedocs.io/
-        sponsorship.md: insiders/index.md
-        upgrading.md: upgrade.md
-  - minify:
-      minify_html: true
+ 
+ # - redirects:
+  #    redirect_maps:
+   #     changelog/insiders.md: insiders/changelog.md
+    #    conventions.md: philosophy.md
+     #   reference/abbreviations.md: reference/tooltips.md
+      #  reference/meta-tags.md: reference/index.md
+       # reference/variables.md: https://mkdocs-macros-plugin.readthedocs.io/
+        #sponsorship.md: insiders/index.md
+        #upgrading.md: upgrade.md
+  #- minify:
+     # minify_html: true
 
 # Customization
 extra:
