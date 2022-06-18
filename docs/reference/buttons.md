@@ -3,7 +3,7 @@ template: overrides/main.html
 icon: material/gesture-tap-button
 ---
 
-# Buttons
+# Buttonscok
 
 Material for MkDocs provides dedicated styles for primary and secondary buttons
 that can be added to any link, `label` or `button` element. This is especially

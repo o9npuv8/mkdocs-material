@@ -9,7 +9,7 @@ right one for your tech stack is a tough decision. If you're unsure if Material
 for MkDocs is the right solution for you, this section should help you evaluate
 alternative solutions.
 
-## Docusaurus
+## Docusauruseseeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
 
 [Docusaurus] by Facebook is a very popular documentation generator and a good
 choice if you or your company are already using [React] to build your site.
